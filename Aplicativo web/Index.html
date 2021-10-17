@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- It's called the bootstrap style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- The proper style is called to normalize the page -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- It is called the style sheet together with variables, given by the teachers -->
+    <link rel="stylesheet" href="css/stils.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- A row is created -->
+        <div class="row">
+            <!-- Two columns of 6 are created -->
+            <div class="col-md-6 bg_img">
+            </div>
+            <div class="col-md-6 inicio d-flex justify-content-center">
+                <form class="formulario align-content-center">
+                    <div class="mb-3">
+                      <h1 class="form-h1">Inicia sesión</h1>
+                      <div id="descrip" class="form-text">Accede para hacer parte del crecimiento, registro, control de los estudiantes.</div>
+                      <div class="btn enlace"> Iniciar sesión</div><div class="btn enlace1">Registrarse</div><br><br>
+                      <input type="email" class="form-control" id="input-correo" placeholder="Correo electrónico"aria-describedby="emailHelp">
+                    </div>                
+                    <div class="mb-3 cont">                
+                      <input type="password" class="form-control" id="input-password" placeholder="Contraseña">
+                    </div>
+                    <button class="btn btn-primary d-grid gap-2 col-6" id="btn1" type="submit" >Ingresar</button>
+                    <label class="foot">Copyright © 2021 - Quipux S.A.S - Semillero </label>
+                 </form>
+                  
+            </div>
+        </div>
+    </div>
+</body>
+<!-- The bootstrap script is called -->
+<script src="js/bootstrap.min.js"></script>
+</html> 

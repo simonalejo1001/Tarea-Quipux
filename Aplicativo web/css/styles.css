@@ -1,0 +1,145 @@
+/* The page is normalized */
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: 'PT Sans', sans-serif;
+}
+
+/* The styles are given to the image */
+.bg_img {
+ background-image: url(../Imagenes/Illustration.svg);
+ height: 100vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+/* A container is created which is given 100% screen coverage */
+.container-fluid {
+ height: 100vh;
+}
+
+/* Styles are given to the login column */
+.inicio {
+ padding-top: 140px;
+}
+
+.form-h1 {
+ font-style: var(--unnamed-font-style-normal);
+ font-weight: var(--unnamed-font-weight-normal);
+ font-size: 24px;
+ line-height: var(--unnamed-line-spacing-29);
+ letter-spacing: var(--unnamed-character-spacing-0-3);
+ color: var(--unnamed-color-272727);
+ font-weight: bold;
+ font-family: Montserrat-Bold;
+} 
+
+.form-text {
+ top: 244px;
+ left: 928px;
+ width: 384px;
+ height: 46px;
+ letter-spacing: 0.26px;
+ color: #272727;
+ text-align: left;
+ opacity: 1;
+ padding-bottom: 1em;
+}
+
+.enlace {
+ border-bottom: 2px solid #470E92; 
+ color: #470E92;
+ font-family: Montserrat-Bold;
+}
+
+.enlace1 {
+ border-bottom: 2px solid gray;
+ color: #470E92;
+ font-family: Montserrat-Bold;
+}
+
+input::placeholder {
+ color: #DEDEDE !important; 
+ font-family: Montserrat-Medium;
+}
+
+.form-control {
+ top: 387px;
+ left: 928px;
+ width: 384px;
+ height: 56px;
+ background: var(--unnamed-color-f5f6f8) 0% 0% no-repeat padding-box;
+ border: 1px solid var(--unnamed-color-dedede);
+ background: #F5F6F8 0% 0% no-repeat padding-box;
+ border-radius: 4px;
+ opacity: 1;
+}
+
+.btn-prymary {
+ font-family: var(--unnamed-font-family-montserrat-semibold);
+ font-style: var(--unnamed-font-style-normal);
+ font-weight: var(--unnamed-font-weight-normal);
+ font-size: var(--unnamed-font-size-16);
+ line-height: var(--unnamed-line-spacing-19);
+ letter-spacing: var(--unnamed-character-spacing-0-5);
+ color: var( --unnamed-color-470E92);
+   
+
+}
+.cont {
+ padding-top: 1em;
+}
+
+#btn1 {
+ background-color: #470E92;
+}
+
+.foot{
+ font-size: 1.5ex;
+ text-align: left;
+ letter-spacing: 0.26px;
+ color: #272727;
+ opacity: 1;
+ padding-top: 7em;
+ font-family: Montserrat-Medium;
+}
+
+/* responsives */
+
+@media (max-width: 360px 640px) {
+    .bg_img{
+        background-image: url(../Imagenes/IllustrationMobile.svg);
+        position: relative;
+    }
+    .formulario{
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        width: 100%;
+        padding: 150px 0px 0px 0px;
+    }
+    .form-h1{
+        color: white;
+        text-align: center;
+    }
+    .form-text{
+        display: none;
+    }
+    .enlace{
+        display: flex;
+        justify-content: center;
+    }
+    .enlace1{
+        display: flex;
+        justify-content: center;
+    }
+    #btn1{
+        background-color: #470E92 !important;
+        width: 500px;
+        height: 50px;
+        width: 100%;
+    }
+}
+
